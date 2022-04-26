@@ -47,3 +47,9 @@ service Notification {
 RESTfulHTTPAPIをgRPCに変換するリバースプロキシサーバーを生成する。
 
 - https://github.com/grpc-ecosystem/grpc-gateway
+
+# お作法
+
+- https://github.com/grpc/grpc/blob/master/doc/health-checking.md
+
+強制ではないが、health-checkingを実装しておくとよい。
